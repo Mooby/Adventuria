@@ -20,7 +20,7 @@ public class Debug
       g.drawString("Y: " + Component.character.y / Block.tileSize, 5, 35);
       g.drawString("Mouse X: " + Mouse.getX(), 5, 44);
       g.drawString("Mouse Y: " + Mouse.getY(), 5, 54);
-      g.drawString("Time: " + Sky.dayFrame, 5, 64);
+      g.drawString("Time: " + Sky.skyAnimationFrame, 5, 64);
     }
   }
 }
